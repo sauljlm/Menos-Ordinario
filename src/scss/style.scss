@@ -1,0 +1,9 @@
+@import 'helpers/normalize.scss';
+@import 'helpers/variables';
+@import 'helpers/general.scss';
+
+@import 'components/header';
+@import 'components/task';
+
+@import 'pages/form';
+@import 'pages/home';
