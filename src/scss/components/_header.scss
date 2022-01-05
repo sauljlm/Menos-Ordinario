@@ -55,7 +55,6 @@ body {
 	background-color: $primaryColor;
 	height: 60px;
 	position: fixed;
-	transform: translateX(-10px);
 	width: 100%;
   z-index: 1;
 }
@@ -172,13 +171,13 @@ body {
     display: none;
   }
   .desktop-nav {
-      display: block;
+    display: block;
   }
 }
 
 @media (max-width: 768px) {
   .desktop-nav {
-      display: none;
+    display: none;
   }
   .mobile-nav {
     display: flex;
