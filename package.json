@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "webpack-dev-server --open",
     "build": "webpack --mode=production",
-    "prod": "http-server dist -p 9000 -o"
+    "prod": "http-server dist"
   },
   "dependencies": {
     "@babel/core": "^7.23.7",
