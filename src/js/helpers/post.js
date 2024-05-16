@@ -4,7 +4,6 @@ let validate = new Validate();
 let singleton = new Singleton();
 import { goToHome } from '../header';
 
-
 const modalContainer = document.querySelector('.modal-container');
 const postContainer = document.querySelector('.js-tasks-container');
 const contNewPostPreview = document.querySelector('.js-new-post-preview');
@@ -24,6 +23,7 @@ function closeModal() {
 }
 
 export async function updatePosts() {
+	console.log("updating Posts")
 	loggedUser = await singleton.getLoggedUser();
 	postContainer.innerHTML = '';
 	const posts = await singleton.getPosts();

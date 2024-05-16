@@ -4,7 +4,7 @@ export default class Singleton {
 	
 	constructor() {
 		
-		this.url = 'https://menos-ordinario.herokuapp.com';
+		this.url = 'http://localhost:8080';
 
 		if (!instance) {
 			instance = this;

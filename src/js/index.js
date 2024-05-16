@@ -4,7 +4,7 @@ import Singleton from './singleton';
 import './header';
 
 import '../scss/style.scss'; 
-import './registerServiceWorker';
+// import './registerServiceWorker';
 
 let aplication = null;
 let singleton = new Singleton();

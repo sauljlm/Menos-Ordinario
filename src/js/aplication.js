@@ -11,6 +11,6 @@ export default class Aplication {
 
 		// // events
 		updatePosts();
-
+		console.log("updatePosts");
 	}
 }
