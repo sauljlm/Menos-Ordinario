@@ -4,7 +4,7 @@ export default class Singleton {
 	
 	constructor() {
 		
-		this.url = 'http://localhost:8080';
+		this.url = 'http://menosordinario-server.up.railway.app';
 
 		if (!instance) {
 			instance = this;
