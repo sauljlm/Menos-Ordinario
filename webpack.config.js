@@ -6,6 +6,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 //const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
+const port = process.env.PORT || 9000;
+
 module.exports = {
   mode: 'none',
   entry: {
@@ -42,6 +44,6 @@ module.exports = {
       directory: path.join(__dirname, 'public'),
     },
     compress: true,
-    port: 9000,
+    port: port,
   },
 };
