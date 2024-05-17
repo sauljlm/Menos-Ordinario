@@ -45,6 +45,6 @@ module.exports = {
     },
     compress: true,
     port: port,
-    allowedHosts: "all"
+    disableHostCheck: true, 
   },
 };
